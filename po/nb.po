@@ -1,18 +1,17 @@
 # Norwegian bokmål translation of gnome-online-accounts.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Kjartan Maraas <kmaraas@gnome.org>, 2011-2020.
+# Kjartan Maraas <kmaraas@gnome.org>, 2011-2026.
 # Åka Sikrom <a4@hush.com>, 2014.
 # haarek <haarektrans@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-online-accounts 3.38.x\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-online-accounts/"
-"issues\n"
-"POT-Creation-Date: 2025-12-31 15:48+0000\n"
-"PO-Revision-Date: 2026-01-08 23:36+0100\n"
-"Last-Translator: Brage <bragefuglseth@gnome.org>\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-online-accounts/issues\n"
+"POT-Creation-Date: 2026-03-17 08:10+0000\n"
+"PO-Revision-Date: 2026-04-17 12:53+0200\n"
+"Last-Translator: Kjartan Maraas <kjartan.maraas@gmail.com>\n"
 "Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"
@@ -20,35 +19,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.4.4\n"
 
+#: data/org.gnome.goa-daemon.desktop.in:3 src/daemon/goadaemon.c:1658
+msgid "Online Accounts"
+msgstr "Nettkontoer"
+
+#: data/org.gnome.goa-daemon.desktop.in:4
+msgid "Notifications shown by Online Accounts daemon"
+msgstr "Varslinger som vises av kontoer på nettet"
+
 #. TODO: more specific
-#: src/daemon/goadaemon.c:1162 src/daemon/goadaemon.c:1483
+#: src/daemon/goadaemon.c:1168 src/daemon/goadaemon.c:1489
 #, c-format
 msgid "Failed to find a provider for: %s"
 msgstr "Fant ikke tjeneste for: %s"
 
-#: src/daemon/goadaemon.c:1426
+#: src/daemon/goadaemon.c:1432
 msgid "IsLocked property is set for account"
 msgstr "Verdi IsLocked er satt for kontoen"
 
 #. TODO: more specific
-#: src/daemon/goadaemon.c:1471
+#: src/daemon/goadaemon.c:1477
 msgid "ProviderType property is not set for account"
 msgstr "Verdi ProviderType er ikke satt for kontoen"
 
-#: src/daemon/goadaemon.c:1633
+#: src/daemon/goadaemon.c:1640
 #, c-format
 msgid "Failed to sign in to “%s”"
 msgstr "Innlogging med «%s» mislyktes"
 
-#: src/daemon/goadaemon.c:1638
+#: src/daemon/goadaemon.c:1645
 msgid "Failed to sign in to multiple accounts"
 msgstr "Innlogging mislyktes med flere kontoer"
 
-#: src/daemon/goadaemon.c:1647
-msgid "Online Accounts"
-msgstr "Nettkontoer"
-
-#: src/daemon/goadaemon.c:1650
+#: src/daemon/goadaemon.c:1661
 msgid "Account Action Required"
 msgstr "Kontohandling kreves"
 
@@ -74,7 +77,7 @@ msgstr "Ukjent feil"
 #: src/goabackend/goadavclient.c:1310 src/goabackend/goaimapauthlogin.c:104
 #: src/goabackend/goakerberosprovider.c:290
 #: src/goabackend/goakerberosprovider.c:312 src/goabackend/goasmtpauth.c:102
-#: src/goabackend/goasmtpauth.c:495 src/goabackend/goautils.c:802
+#: src/goabackend/goasmtpauth.c:473 src/goabackend/goautils.c:808
 msgid "Authentication failed"
 msgstr "Autentisering mislyktes"
 
@@ -190,7 +193,7 @@ msgstr "Henting av hovedidentitet fra «%s» mislyktes"
 msgid "Google"
 msgstr "Google"
 
-#: src/goabackend/goagoogleprovider.c:211
+#: src/goabackend/goagoogleprovider.c:212
 #: src/goabackend/goamsgraphprovider.c:185
 #, c-format
 msgid ""
@@ -198,12 +201,11 @@ msgid ""
 msgstr "Forventet statuskode 200, fikk %d (%s) i stedet"
 
 #. TODO: more specific
-#: src/goabackend/goagoogleprovider.c:230
-#: src/goabackend/goagoogleprovider.c:241
+#: src/goabackend/goagoogleprovider.c:231
+#: src/goabackend/goagoogleprovider.c:242
 #: src/goabackend/goamsgraphprovider.c:204
 #: src/goabackend/goamsgraphprovider.c:215
-#: src/goabackend/goamsgraphprovider.c:228
-#: src/goabackend/goamsgraphprovider.c:255
+#: src/goabackend/goamsgraphprovider.c:246
 #: src/goabackend/goaoauth2provider.c:701
 #: src/goabackend/goaoauth2provider.c:780
 #: src/goabackend/goaoauth2provider.c:810
@@ -222,7 +224,7 @@ msgstr "Tolking av svar mislyktes"
 msgid "Service not available"
 msgstr "Tjeneste ikke tilgjengelig"
 
-#: src/goabackend/goaimapauthlogin.c:157 src/goabackend/goasmtpauth.c:636
+#: src/goabackend/goaimapauthlogin.c:157 src/goabackend/goasmtpauth.c:616
 msgid "Server does not support STARTTLS"
 msgstr "Tjener støtter ikke STARTTLS"
 
@@ -268,7 +270,7 @@ msgid "SSL on a dedicated port"
 msgstr "SSL på en dedikert port"
 
 #: src/goabackend/goaimapsmtpprovider.c:700
-#: src/goabackend/goaimapsmtpprovider.c:1452
+#: src/goabackend/goaimapsmtpprovider.c:1454
 msgid "Email"
 msgstr "E-post"
 
@@ -319,15 +321,15 @@ msgstr "SMTP-_tjener"
 msgid "Example server: smtp.example.com"
 msgstr "Eksempel på tjener: smtp.example.com"
 
-#: src/goabackend/goaimapsmtpprovider.c:1443
+#: src/goabackend/goaimapsmtpprovider.c:1445
 msgid "Name"
 msgstr "Navn"
 
-#: src/goabackend/goaimapsmtpprovider.c:1469
+#: src/goabackend/goaimapsmtpprovider.c:1471
 msgid "IMAP"
 msgstr "IMAP"
 
-#: src/goabackend/goaimapsmtpprovider.c:1489
+#: src/goabackend/goaimapsmtpprovider.c:1491
 msgid "SMTP"
 msgstr "SMTP"
 
@@ -388,37 +390,37 @@ msgid "Microsoft 365"
 msgstr "Microsoft 365"
 
 #. provider name
-#: src/goabackend/goamsgraphprovider.c:498
+#: src/goabackend/goamsgraphprovider.c:488
 msgid "Connect to Microsoft 365 to access email, calendars, contacts and files"
 msgstr ""
 "Koble til en Microsoft 365-leverandør for å bruke e-post, kalendere, "
 "kontakter og filer"
 
-#: src/goabackend/goamsgraphprovider.c:502
+#: src/goabackend/goamsgraphprovider.c:492
 msgid "Use Organization Account"
 msgstr "Bruk organisasjonskonto"
 
-#: src/goabackend/goamsgraphprovider.c:503
+#: src/goabackend/goamsgraphprovider.c:493
 msgid "Connect using details from an organization or developer account"
 msgstr ""
 "Koble til med innloggingsinformasjon fra en organisasjons- eller "
 "utviklerkonto"
 
 #. Translators: See https://learn.microsoft.com/globalization/reference/microsoft-terminology
-#: src/goabackend/goamsgraphprovider.c:510
+#: src/goabackend/goamsgraphprovider.c:500
 msgid "Enter the details provided by your organization"
 msgstr "Oppgi innloggingsinformasjon gitt av organisasjonen din"
 
-#: src/goabackend/goamsgraphprovider.c:512
+#: src/goabackend/goamsgraphprovider.c:502
 msgid "_Client ID (Optional)"
 msgstr "_Klient-ID (valgfritt)"
 
 #. Translators: See https://learn.microsoft.com/globalization/reference/microsoft-terminology
-#: src/goabackend/goamsgraphprovider.c:514
+#: src/goabackend/goamsgraphprovider.c:504
 msgid "_Tenant ID"
 msgstr "_Leier-ID"
 
-#: src/goabackend/goamsgraphprovider.c:515
+#: src/goabackend/goamsgraphprovider.c:505
 msgid "Example ID: 00000000-0000-0000-0000-000000000000"
 msgstr "Eksempel-ID: 00000000-0000-0000-0000-000000000000"
 
@@ -471,7 +473,7 @@ msgstr "Oppdatering av tilgangsnøkkel mislyktes (%s, %d): "
 msgid "Nextcloud"
 msgstr "Nextcloud"
 
-#: src/goabackend/goaowncloudprovider.c:526 src/goabackend/goautils.c:790
+#: src/goabackend/goaowncloudprovider.c:526 src/goabackend/goautils.c:796
 msgid "Not supported"
 msgstr "Ikke støttet"
 
@@ -591,23 +593,23 @@ msgstr "Logg inn for å koble til kontoen på nytt"
 msgid "_Account Description"
 msgstr "_Beskrivelse av konto"
 
-#: src/goabackend/goaproviderdialog.c:947
+#: src/goabackend/goaproviderdialog.c:940
 msgid "_Remove…"
 msgstr "_Fjern…"
 
-#: src/goabackend/goaproviderdialog.c:1043
+#: src/goabackend/goaproviderdialog.c:1036
 msgid "_Sign In"
 msgstr "_Logg inn"
 
-#: src/goabackend/goaproviderdialog.c:1105
+#: src/goabackend/goaproviderdialog.c:1098
 msgid "_Try Again"
 msgstr "_Prøv igjen"
 
-#: src/goabackend/goaproviderdialog.c:1109
+#: src/goabackend/goaproviderdialog.c:1102
 msgid "_Ignore"
 msgstr "_Ignorer"
 
-#: src/goabackend/goaproviderdialog.c:1381
+#: src/goabackend/goaproviderdialog.c:1374
 msgid "Dialog was dismissed"
 msgstr "Vindu avvist"
 
@@ -616,7 +618,7 @@ msgstr "Vindu avvist"
 msgid "TLS not available"
 msgstr "TLS er ikke tilgjengelig"
 
-#: src/goabackend/goasmtpauth.c:503
+#: src/goabackend/goasmtpauth.c:481
 msgid "Unknown authentication mechanism"
 msgstr "Ukjent mekanisme for autorisering"
 
@@ -655,48 +657,48 @@ msgstr "GOA %s-innloggingsdata for %s"
 msgid "Failed to store credentials in the keyring"
 msgstr "Lagring av innloggingsdata mislyktes"
 
-#: src/goabackend/goautils.c:794
+#: src/goabackend/goautils.c:800
 msgid "Not found"
 msgstr "Ikke funnet"
 
-#: src/goabackend/goautils.c:808
+#: src/goabackend/goautils.c:814
 #, c-format
 msgid "Code: %u — Unexpected response from server"
 msgstr "Kode: %u - Uventet svar fra tjener"
 
-#: src/goabackend/goautils.c:833
+#: src/goabackend/goautils.c:839
 msgid "The signing certificate authority is not known."
 msgstr "Signeringsautoriteten er ukjent."
 
-#: src/goabackend/goautils.c:837
+#: src/goabackend/goautils.c:843
 msgid ""
 "The certificate does not match the expected identity of the site that it was "
 "retrieved from."
 msgstr ""
 "Sertifikatet passer ikke med den forventede identiteten opphavsnettstedet."
 
-#: src/goabackend/goautils.c:842
+#: src/goabackend/goautils.c:848
 msgid "The certificate’s activation time is still in the future."
 msgstr "Sertifikatets aktiviseringstidspunkt er fortsatt i fremtiden."
 
-#: src/goabackend/goautils.c:846
+#: src/goabackend/goautils.c:852
 msgid "The certificate has expired."
 msgstr "Sertifikatet har utløpt."
 
-#: src/goabackend/goautils.c:850
+#: src/goabackend/goautils.c:856
 msgid "The certificate has been revoked."
 msgstr "Sertifikatet har blitt tilbaketrukket."
 
-#: src/goabackend/goautils.c:854
+#: src/goabackend/goautils.c:860
 msgid "The certificate’s algorithm is considered insecure."
 msgstr "Sertifikatets algoritme er usikker."
 
-#: src/goabackend/goautils.c:860
+#: src/goabackend/goautils.c:866
 msgid "Invalid certificate."
 msgstr "Ugyldig sertifikat."
 
 #. TODO: more specific
-#: src/goabackend/goautils.c:895
+#: src/goabackend/goautils.c:901
 #, c-format
 msgid "Did not find %s with identity “%s” in credentials"
 msgstr "Fant ikke %s med identitet «%s» i innloggingsdata"
