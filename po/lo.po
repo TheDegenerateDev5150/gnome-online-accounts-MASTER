@@ -1,0 +1,802 @@
+# Lao translation for gnome-online-accounts.
+# Copyright (C) 2025 gnome-online-accounts's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-online-accounts package.
+# bone NI <bounkirdni@gmail.com>,  2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-online-accounts master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-online-accounts/"
+"issues\n"
+"POT-Creation-Date: 2025-09-20 16:44+0000\n"
+"PO-Revision-Date: 2025-09-20 16:44+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Lao <lo@li.org>\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/daemon/goadaemon.c:1162 src/daemon/goadaemon.c:1483
+#, c-format
+msgid "Failed to find a provider for: %s"
+msgstr "ຊອກຫາຜູ້ໃຫ້ບໍລິການບໍ່ພົບສຳລັບ: %s"
+
+#: src/daemon/goadaemon.c:1426
+msgid "IsLocked property is set for account"
+msgstr "ຄຸນສົມບັດ IsLocked ຖືກຕັ້ງຄ່າໄວ້ສຳລັບບັນຊີແລ້ວ"
+
+#. TODO: more specific
+#: src/daemon/goadaemon.c:1471
+msgid "ProviderType property is not set for account"
+msgstr "ຄຸນສົມບັດ ProviderType ບໍ່ໄດ້ຖືກຕັ້ງຄ່າໄວ້ສຳລັບບັນຊີ"
+
+#: src/daemon/goadaemon.c:1633
+#, c-format
+msgid "Failed to sign in to “%s”"
+msgstr "ເຂົ້າສູ່ລະບົບ “%s” ບໍ່ສຳເລັດ"
+
+#: src/daemon/goadaemon.c:1638
+msgid "Failed to sign in to multiple accounts"
+msgstr "ເຂົ້າສູ່ລະບົບຫຼາຍບັນຊີບໍ່ສຳເລັດ"
+
+#: src/daemon/goadaemon.c:1647
+msgid "Online Accounts"
+msgstr "ບັນຊີອອນລາຍ"
+
+#: src/daemon/goadaemon.c:1650
+msgid "Account Action Required"
+msgstr "ບັນຊີຕ້ອງການການດຳເນີນການ"
+
+#: src/goabackend/goaauthflowbutton.c:148
+#: src/goabackend/goaproviderdialog.c:840
+msgid "_Sign In…"
+msgstr "_ເຂົ້າສູ່ລະບົບ…"
+
+#: src/goabackend/goaauthflowbutton.c:162
+msgid "_Copy Link"
+msgstr "_ສຳເນົາລິ້ງ"
+
+#: src/goabackend/goaauthflowbutton.c:173
+msgid "Copy the authorization URL to continue with a specific web browser."
+msgstr "ສຳເນົາ URL ການອະນຸຍາດ ເພື່ອດຳເນີນການຕໍ່ດ້ວຍເວັບເບຣາວເຊີທີ່ຕ້ອງການ."
+
+#. TODO: more specific
+#: src/goabackend/goadavclient.c:1228 src/goabackend/goaimapauthlogin.c:104
+#: src/goabackend/goakerberosprovider.c:290
+#: src/goabackend/goakerberosprovider.c:312 src/goabackend/goasmtpauth.c:102
+#: src/goabackend/goautils.c:802
+#, c-format
+msgid "Authentication failed"
+msgstr "ການຢັ້ງຢືນຕົວຕົນບໍ່ສຳເລັດ"
+
+#: src/goabackend/goadavclient.c:1235
+msgid "Cannot find WebDAV endpoint"
+msgstr "ຊອກຫາຈຸດເຊື່ອມຕໍ່ WebDAV ບໍ່ພົບ"
+
+#: src/goabackend/goadavclient.c:1348 src/goabackend/goaoauth2provider.c:888
+#: src/goabackend/goaowncloudprovider.c:622
+#: src/goabackend/goawebdavprovider.c:648
+#, c-format
+msgid "Invalid URI: %s"
+msgstr "URI ບໍ່ຖືກຕ້ອງ: %s"
+
+#. TODO: more specific
+#: src/goabackend/goaewsclient.c:278
+#, c-format
+msgid "Failed to parse autodiscover response XML"
+msgstr "ແຍກສ່ວນ XML ການຕອບສະໜອງການຄົ້ນພົບອັດຕະໂນມັດບໍ່ສຳເລັດ"
+
+#. TODO: more specific
+#. Translators: the parameter is an XML element name.
+#: src/goabackend/goaewsclient.c:289 src/goabackend/goaewsclient.c:304
+#: src/goabackend/goaewsclient.c:319
+#, c-format
+msgid "Failed to find “%s” element"
+msgstr "ຊອກຫາອົງປະກອບ “%s” ບໍ່ພົບ"
+
+#. TODO: more specific
+#: src/goabackend/goaewsclient.c:340
+#, c-format
+msgid "Failed to find ASUrl in autodiscover response"
+msgstr "ຊອກຫາ ASUrl ໃນການຕອບສະໜອງການຄົ້ນພົບອັດຕະໂນມັດບໍ່ພົບ"
+
+#: src/goabackend/goaexchangeprovider.c:52
+msgid "Microsoft Exchange"
+msgstr "Microsoft Exchange"
+
+#. Translators: the first %s is the username
+#. * (eg., debarshi.ray@gmail.com or rishi), and the
+#. * (%s, %d) is the error domain and code.
+#.
+#: src/goabackend/goaexchangeprovider.c:258
+#: src/goabackend/goawebdavprovider.c:304
+#, c-format
+msgid "Invalid password with username “%s” (%s, %d): "
+msgstr "ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງສຳລັບຊື່ຜູ້ໃຊ້ “%s” (%s, %d): "
+
+#. provider name
+#: src/goabackend/goaexchangeprovider.c:389
+msgid ""
+"Connect to a Microsoft Exchange provider to access calendars, contacts and "
+"files"
+msgstr "ເຊື່ອມຕໍ່ຜູ້ໃຫ້ບໍລິການ Microsoft Exchange ເພື່ອເຂົ້າເຖິງປະຕິທິນ, ລາຍຊື່ຜູ້ຕິດຕໍ່ ແລະ ໄຟລ໌"
+
+#: src/goabackend/goaexchangeprovider.c:392
+#: src/goabackend/goaimapsmtpprovider.c:701
+msgid "_Email"
+msgstr "_ອີເມວ"
+
+#: src/goabackend/goaexchangeprovider.c:393
+#: src/goabackend/goafedoraprovider.c:171
+#: src/goabackend/goaimapsmtpprovider.c:702
+#: src/goabackend/goaimapsmtpprovider.c:745
+#: src/goabackend/goaimapsmtpprovider.c:789
+#: src/goabackend/goawebdavprovider.c:408
+msgid "_Password"
+msgstr "_ລະຫັດຜ່ານ"
+
+#: src/goabackend/goaexchangeprovider.c:394
+msgid ""
+"Exchange account details will be auto-detected from your email address when "
+"possible"
+msgstr "ລາຍລະອຽດບັນຊີ Exchange ຈະຖືກກວດຫາອັດຕະໂນມັດຈາກທີ່ຢູ່ອີເມວຂອງທ່ານ ເມື່ອສາມາດເຮັດໄດ້"
+
+#: src/goabackend/goaexchangeprovider.c:405
+msgid "Account Details"
+msgstr "ລາຍລະອຽດບັນຊີ"
+
+#: src/goabackend/goaexchangeprovider.c:406
+#: src/goabackend/goafedoraprovider.c:170
+#: src/goabackend/goaimapsmtpprovider.c:744
+#: src/goabackend/goaimapsmtpprovider.c:788
+#: src/goabackend/goawebdavprovider.c:407
+msgid "User_name"
+msgstr "_ຊື່ຜູ້ໃຊ້"
+
+#: src/goabackend/goaexchangeprovider.c:407
+msgid "_Domain"
+msgstr "_ໂດເມນ"
+
+#: src/goabackend/goaexchangeprovider.c:408
+msgid "Example domain: example.com"
+msgstr "ໂດເມນຕົວຢ່າງ: example.com"
+
+#: src/goabackend/goafedoraprovider.c:51
+msgid "Fedora"
+msgstr "Fedora"
+
+#: src/goabackend/goafedoraprovider.c:167
+#: src/goabackend/goakerberosprovider.c:557
+msgid "Access restricted web and network resources for your organization"
+msgstr "ເຂົ້າເຖິງແຫຼ່ງຂໍ້ມູນເວັບ ແລະ ເຄືອຂ່າຍທີ່ຈຳກັດສຳລັບອົງກອນຂອງທ່ານ"
+
+#: src/goabackend/goafedoraprovider.c:337
+#, c-format
+msgid "Failed to get principal from user name “%s”"
+msgstr "ເອົາ principal ຈາກຊື່ຜູ້ໃຊ້ “%s” ບໍ່ສຳເລັດ"
+
+#: src/goabackend/goagoogleprovider.c:57
+msgid "Google"
+msgstr "Google"
+
+#: src/goabackend/goagoogleprovider.c:211
+#: src/goabackend/goamsgraphprovider.c:185
+#, c-format
+msgid ""
+"Expected status 200 when requesting your identity, instead got status %d (%s)"
+msgstr "ຄາດວ່າຈະໄດ້ສະຖານະ 200 ເມື່ອຂໍຂໍ້ມູນຕົວຕົນຂອງທ່ານ, ແຕ່ກັບໄດ້ສະຖານະ %d (%s)"
+
+#. TODO: more specific
+#: src/goabackend/goagoogleprovider.c:230
+#: src/goabackend/goagoogleprovider.c:241
+#: src/goabackend/goamsgraphprovider.c:204
+#: src/goabackend/goamsgraphprovider.c:215
+#: src/goabackend/goamsgraphprovider.c:228
+#: src/goabackend/goamsgraphprovider.c:255
+#: src/goabackend/goaoauth2provider.c:701
+#: src/goabackend/goaoauth2provider.c:780
+#: src/goabackend/goaoauth2provider.c:810
+#: src/goabackend/goaoauth2provider.c:821
+#: src/goabackend/goaoauth2provider.c:963
+#: src/goabackend/goaowncloudprovider.c:338
+#: src/goabackend/goaowncloudprovider.c:538
+#: src/goabackend/goaowncloudprovider.c:548
+#: src/goabackend/goaowncloudprovider.c:568 src/goabackend/goautils.c:136
+#, c-format
+msgid "Could not parse response"
+msgstr "ບໍ່ສາມາດແຍກສ່ວນການຕອບສະໜອງໄດ້"
+
+#. TODO: more specific
+#: src/goabackend/goaimapauthlogin.c:84 src/goabackend/goaoauth2provider.c:1346
+#: src/goabackend/goasmtpauth.c:149
+#, c-format
+msgid "Service not available"
+msgstr "ບໍລິການບໍ່ພ້ອມໃຊ້ງານ"
+
+#: src/goabackend/goaimapauthlogin.c:157 src/goabackend/goasmtpauth.c:625
+#, c-format
+msgid "Server does not support STARTTLS"
+msgstr "ເຊີບເວີບໍ່ຮອງຮັບ STARTTLS"
+
+#: src/goabackend/goaimapsmtpprovider.c:55
+msgid "IMAP and SMTP"
+msgstr "IMAP ແລະ SMTP"
+
+#. Translators: the first %s is a field name. The
+#. * second %s is the IMAP
+#. * username (eg., rishi), and the (%s, %d)
+#. * is the error domain and code.
+#.
+#. Translators: the first %s is a field name. The
+#. * second %s is the SMTP
+#. * username (eg., rishi), and the (%s, %d)
+#. * is the error domain and code.
+#.
+#: src/goabackend/goaimapsmtpprovider.c:320
+#: src/goabackend/goaimapsmtpprovider.c:369
+#, c-format
+msgid "Invalid %s with username “%s” (%s, %d): "
+msgstr "%s ບໍ່ຖືກຕ້ອງກັບຊື່ຜູ້ໃຊ້ “%s” (%s, %d): "
+
+#: src/goabackend/goaimapsmtpprovider.c:566
+#: src/goabackend/goaimapsmtpprovider.c:589
+#: src/goabackend/goaimapsmtpprovider.c:724
+#: src/goabackend/goaimapsmtpprovider.c:765
+#: src/goabackend/goaimapsmtpprovider.c:809
+msgid "Auto-detected"
+msgstr "ກວດພົບອັດຕະໂນມັດ"
+
+#: src/goabackend/goaimapsmtpprovider.c:618
+msgid "Unable to auto-detect IMAP and SMTP settings"
+msgstr "ບໍ່ສາມາດກວດຫາການຕັ້ງຄ່າ IMAP ແລະ SMTP ແບບອັດຕະໂນມັດໄດ້"
+
+#: src/goabackend/goaimapsmtpprovider.c:689
+msgid "STARTTLS after connecting"
+msgstr "STARTTLS ຫຼັງຈາກເຊື່ອມຕໍ່"
+
+#. GOA_TLS_TYPE_STARTTLS
+#: src/goabackend/goaimapsmtpprovider.c:690
+msgid "SSL on a dedicated port"
+msgstr "SSL ເທິງພອດສະເພາະ"
+
+#: src/goabackend/goaimapsmtpprovider.c:695
+#: src/goabackend/goaimapsmtpprovider.c:1435
+msgid "Email"
+msgstr "ອີເມວ"
+
+#: src/goabackend/goaimapsmtpprovider.c:696
+msgid "Connect to an email account"
+msgstr "ເຊື່ອມຕໍ່ບັນຊີອີເມວ"
+
+#: src/goabackend/goaimapsmtpprovider.c:700
+msgid "_Name"
+msgstr "_ຊື່"
+
+#: src/goabackend/goaimapsmtpprovider.c:703
+msgid ""
+"IMAP and SMTP details will be auto-detected from your service provider when "
+"possible"
+msgstr "ລາຍລະອຽດ IMAP ແລະ SMTP ຈະຖືກກວດຫາອັດຕະໂນມັດຈາກຜູ້ໃຫ້ບໍລິການຂອງທ່ານ ເມື່ອສາມາດເຮັດໄດ້"
+
+#. IMAP
+#: src/goabackend/goaimapsmtpprovider.c:742
+msgid "IMAP Settings"
+msgstr "ການຕັ້ງຄ່າ IMAP"
+
+#: src/goabackend/goaimapsmtpprovider.c:743
+msgid "IMAP _Server"
+msgstr "_ເຊີບເວີ IMAP"
+
+#: src/goabackend/goaimapsmtpprovider.c:754
+#: src/goabackend/goaimapsmtpprovider.c:798
+msgid "Encryption"
+msgstr "ການເຂົ້າລະຫັດ"
+
+#: src/goabackend/goaimapsmtpprovider.c:779
+msgid "Example server: imap.example.com"
+msgstr "ເຊີບເວີຕົວຢ່າງ: imap.example.com"
+
+#. SMTP
+#: src/goabackend/goaimapsmtpprovider.c:786
+msgid "SMTP Settings"
+msgstr "ການຕັ້ງຄ່າ SMTP"
+
+#: src/goabackend/goaimapsmtpprovider.c:787
+msgid "SMTP _Server"
+msgstr "_ເຊີບເວີ SMTP"
+
+#: src/goabackend/goaimapsmtpprovider.c:823
+msgid "Example server: smtp.example.com"
+msgstr "ເຊີບເວີຕົວຢ່າງ: smtp.example.com"
+
+#: src/goabackend/goaimapsmtpprovider.c:1426
+msgid "Name"
+msgstr "ຊື່"
+
+#: src/goabackend/goaimapsmtpprovider.c:1452
+msgid "IMAP"
+msgstr "IMAP"
+
+#: src/goabackend/goaimapsmtpprovider.c:1470
+msgid "SMTP"
+msgstr "SMTP"
+
+#: src/goabackend/goakerberosprovider.c:81
+msgid "Kerberos"
+msgstr "Kerberos"
+
+#: src/goabackend/goakerberosprovider.c:318 src/goabackend/goaprovider.c:1078
+msgid "Unknown error"
+msgstr "ຂໍ້ຜິດພາດທີ່ບໍ່ຮູ້ຈັກ"
+
+#: src/goabackend/goakerberosprovider.c:560
+msgid "_Principal"
+msgstr "_Principal"
+
+#: src/goabackend/goakerberosprovider.c:561
+msgid "Example principal: user@EXAMPLE.COM"
+msgstr "Principal ຕົວຢ່າງ: user@EXAMPLE.COM"
+
+#: src/goabackend/goakerberosprovider.c:1249
+#, c-format
+msgid "Ticketing is disabled for account"
+msgstr "ການອອກຕົ໋ວຖືກປິດໄວ້ສຳລັບບັນຊີ"
+
+#: src/goabackend/goakerberosprovider.c:1272
+#, c-format
+msgid "Could not find saved credentials for principal “%s” in keyring"
+msgstr "ບໍ່ສາມາດຊອກຫາຂໍ້ມູນປະຈຳຕົວທີ່ບັນທຶກໄວ້ສຳລັບ principal “%s” ໃນພວງກະແຈ"
+
+#: src/goabackend/goakerberosprovider.c:1288
+#, c-format
+msgid "Did not find password for principal “%s” in credentials"
+msgstr "ຊອກຫາລະຫັດຜ່ານສຳລັບ principal “%s” ໃນຂໍ້ມູນປະຈຳຕົວບໍ່ພົບ"
+
+#: src/goabackend/goakerberosprovider.c:1478
+#: src/goaidentity/goaidentityservice.c:1115
+msgid "Log In to Realm"
+msgstr "ເຂົ້າສູ່ລະບົບ Realm"
+
+#: src/goabackend/goakerberosprovider.c:1479
+msgid "Please enter your password below."
+msgstr "ກະລຸນາປ້ອນລະຫັດຜ່ານຂອງທ່ານດ້ານລຸ່ມ."
+
+#: src/goabackend/goakerberosprovider.c:1480
+msgid "Remember this password"
+msgstr "ຈື່ລະຫັດຜ່ານນີ້ໄວ້"
+
+#: src/goabackend/goakerberosprovider.c:1490
+msgid "Operation was cancelled"
+msgstr "ການດຳເນີນການຖືກຍົກເລີກ"
+
+#: src/goabackend/goakerberosprovider.c:1672
+#, c-format
+msgid "Identity service returned invalid key"
+msgstr "ບໍລິການຕົວຕົນສົ່ງຄີທີ່ບໍ່ຖືກຕ້ອງກັບມາ"
+
+#: src/goabackend/goamailclient.c:853
+#, c-format
+msgid "Invalid email address “%s”"
+msgstr "ທີ່ຢູ່ອີເມວ “%s” ບໍ່ຖືກຕ້ອງ"
+
+#: src/goabackend/goamsgraphprovider.c:65
+msgid "Microsoft 365"
+msgstr "Microsoft 365"
+
+#. provider name
+#: src/goabackend/goamsgraphprovider.c:498
+msgid "Connect to Microsoft 365 to access email, calendars, contacts and files"
+msgstr "ເຊື່ອມຕໍ່ Microsoft 365 ເພື່ອເຂົ້າເຖິງອີເມວ, ປະຕິທິນ, ລາຍຊື່ຜູ້ຕິດຕໍ່ ແລະ ໄຟລ໌"
+
+#: src/goabackend/goamsgraphprovider.c:502
+msgid "Use Organization Account"
+msgstr "ໃຊ້ບັນຊີອົງກອນ"
+
+#: src/goabackend/goamsgraphprovider.c:503
+msgid "Connect using details from an organization or developer account"
+msgstr "ເຊື່ອມຕໍ່ໂດຍໃຊ້ລາຍລະອຽດຈາກບັນຊີອົງກອນ ຫຼື ຜູ້ພັດທະນາ"
+
+#. Translators: See https://learn.microsoft.com/globalization/reference/microsoft-terminology
+#: src/goabackend/goamsgraphprovider.c:510
+msgid "Enter the details provided by your organization"
+msgstr "ປ້ອນລາຍລະອຽດທີ່ໄດ້ຮັບຈາກອົງກອນຂອງທ່ານ"
+
+#: src/goabackend/goamsgraphprovider.c:512
+msgid "_Client ID (Optional)"
+msgstr "_Client ID (ບໍ່ບັງຄັບ)"
+
+#. Translators: See https://learn.microsoft.com/globalization/reference/microsoft-terminology
+#: src/goabackend/goamsgraphprovider.c:514
+msgid "_Tenant ID"
+msgstr "_Tenant ID"
+
+#: src/goabackend/goamsgraphprovider.c:515
+msgid "Example ID: 00000000-0000-0000-0000-000000000000"
+msgstr "ID ຕົວຢ່າງ: 00000000-0000-0000-0000-000000000000"
+
+#: src/goabackend/goaoauth2provider.c:754
+#, c-format
+msgid ""
+"Expected status 200 when requesting access token, instead got status %d (%s)"
+msgstr "ຄາດວ່າຈະໄດ້ສະຖານະ 200 ເມື່ອຂໍ access token, ແຕ່ກັບໄດ້ສະຖານະ %d (%s)"
+
+#: src/goabackend/goaoauth2provider.c:907
+msgid "Authorization response: "
+msgstr "ການຕອບສະໜອງການອະນຸຍາດ: "
+
+#: src/goabackend/goaoauth2provider.c:1047
+msgid "Error getting an Access Token: "
+msgstr "ຂໍ້ຜິດພາດໃນການຮັບ Access Token: "
+
+#: src/goabackend/goaoauth2provider.c:1063
+msgid "Error getting identity: "
+msgstr "ຂໍ້ຜິດພາດໃນການຮັບຂໍ້ມູນຕົວຕົນ: "
+
+#: src/goabackend/goaoauth2provider.c:1101
+#, c-format
+msgid "Sign in to %s with your browser"
+msgstr "ເຂົ້າສູ່ລະບົບ %s ດ້ວຍເບຣາວເຊີຂອງທ່ານ"
+
+#: src/goabackend/goaoauth2provider.c:1614
+#: src/goabackend/goaoauth2provider.c:1786
+#: src/goabackend/goaowncloudprovider.c:824
+msgid "Copied to clipboard"
+msgstr "ສຳເນົາໃສ່ຄລິບບອດແລ້ວ"
+
+#: src/goabackend/goaoauth2provider.c:1737
+#: src/goabackend/goaowncloudprovider.c:1139
+#, c-format
+msgid "Was asked to log in as %s, but logged in as %s"
+msgstr "ຖືກຮ້ອງຂໍໃຫ້ເຂົ້າສູ່ລະບົບເປັນ %s, ແຕ່ເຂົ້າສູ່ລະບົບເປັນ %s"
+
+#: src/goabackend/goaoauth2provider.c:1980
+#, c-format
+msgid "Credentials do not contain access_token"
+msgstr "ຂໍ້ມູນປະຈຳຕົວບໍ່ມີ access_token"
+
+#: src/goabackend/goaoauth2provider.c:2024
+#, c-format
+msgid "Failed to refresh access token (%s, %d): "
+msgstr "ໂຫຼດ access token ໃໝ່ບໍ່ສຳເລັດ (%s, %d): "
+
+#: src/goabackend/goaowncloudprovider.c:65
+#: src/goabackend/goaowncloudprovider.c:849
+msgid "Nextcloud"
+msgstr "Nextcloud"
+
+#: src/goabackend/goaowncloudprovider.c:526 src/goabackend/goautils.c:790
+msgid "Not supported"
+msgstr "ບໍ່ຮອງຮັບ"
+
+#: src/goabackend/goaowncloudprovider.c:850
+msgid "Add a Nextcloud account by providing your server address"
+msgstr "ເພີ່ມບັນຊີ Nextcloud ໂດຍການລະບຸທີ່ຢູ່ເຊີບເວີຂອງທ່ານ"
+
+#: src/goabackend/goaowncloudprovider.c:853
+#: src/goabackend/goawebdavprovider.c:403
+msgid "_Server Address"
+msgstr "_ທີ່ຢູ່ເຊີບເວີ"
+
+#: src/goabackend/goaowncloudprovider.c:854
+#: src/goabackend/goawebdavprovider.c:404
+msgid "Examples: example.com, 192.168.0.82"
+msgstr "ຕົວຢ່າງ: example.com, 192.168.0.82"
+
+#: src/goabackend/goaprovider.c:117
+msgid "_Mail"
+msgstr "_ຈົດໝາຍ"
+
+#: src/goabackend/goaprovider.c:122
+msgid "Cale_ndar"
+msgstr "_ປະຕິທິນ"
+
+#: src/goabackend/goaprovider.c:127
+msgid "_Contacts"
+msgstr "_ລາຍຊື່ຕິດຕໍ່"
+
+#: src/goabackend/goaprovider.c:132
+msgid "C_hat"
+msgstr "_ສົນທະນາ"
+
+#: src/goabackend/goaprovider.c:137
+msgid "_Documents"
+msgstr "_ເອກະສານ"
+
+#: src/goabackend/goaprovider.c:142
+msgid "M_usic"
+msgstr "_ດົນຕີ"
+
+#: src/goabackend/goaprovider.c:147
+msgid "_Photos"
+msgstr "_ຮູບພາບ"
+
+#: src/goabackend/goaprovider.c:152
+msgid "_Files"
+msgstr "_ໄຟລ໌"
+
+#: src/goabackend/goaprovider.c:157
+msgid "Network _Resources"
+msgstr "_ຊັບພະຍາກອນເຄືອຂ່າຍ"
+
+#: src/goabackend/goaprovider.c:162
+msgid "_Read Later"
+msgstr "_ອ່ານພາຍຫຼັງ"
+
+#: src/goabackend/goaprovider.c:167
+msgid "Prin_ters"
+msgstr "_ເຄື່ອງພິມ"
+
+#: src/goabackend/goaprovider.c:172
+msgid "_Maps"
+msgstr "_ແຜນທີ່"
+
+#: src/goabackend/goaprovider.c:177
+msgid "T_o Do"
+msgstr "_ລາຍການທີ່ຕ້ອງເຮັດ"
+
+#: src/goabackend/goaprovider.c:1065
+msgid "Account is disabled"
+msgstr "ບັນຊີຖືກປິດໃຊ້ງານ"
+
+#: src/goabackend/goaprovider.c:1097
+#, c-format
+msgid "ensure_credentials_sync is not implemented on type %s"
+msgstr "ensure_credentials_sync ບໍ່ໄດ້ຖືກນຳໄປໃຊ້ກັບປະເພດ %s"
+
+#. Translators: this is the title of the "Add Account" and "Refresh
+#. * Account" dialogs. The %s is the name of the provider. eg.,
+#. * 'Google'.
+#.
+#: src/goabackend/goaproviderdialog.c:183
+#, c-format
+msgid "%s Account"
+msgstr "ບັນຊີ %s"
+
+#: src/goabackend/goaproviderdialog.c:627
+msgid "Remove this Account?"
+msgstr "ລຶບບັນຊີນີ້ອອກບໍ່?"
+
+#: src/goabackend/goaproviderdialog.c:628
+msgid ""
+"If you remove this Online Account you will have to connect to it again to "
+"use it with apps and services."
+msgstr "ຖ້າທ່ານລຶບບັນຊີອອນລາຍນີ້, ທ່ານຈະຕ້ອງເຊື່ອມຕໍ່ມັນໃໝ່ອີກຄັ້ງເພື່ອໃຊ້ມັນກັບແອັບ ແລະ ບໍລິການຕ່າງໆ."
+
+#: src/goabackend/goaproviderdialog.c:630
+msgid "_Cancel"
+msgstr "_ຍົກເລີກ"
+
+#: src/goabackend/goaproviderdialog.c:631
+msgid "_Remove"
+msgstr "_ລຶບອອກ"
+
+#: src/goabackend/goaproviderdialog.c:767
+msgid "An account with that name already exists"
+msgstr "ມີບັນຊີຊື່ນີ້ຢູ່ແລ້ວ"
+
+#: src/goabackend/goaproviderdialog.c:839
+msgid "Sign in to reconnect to this account"
+msgstr "ເຂົ້າສູ່ລະບົບເພື່ອເຊື່ອມຕໍ່ບັນຊີນີ້ຄືນໃໝ່"
+
+#: src/goabackend/goaproviderdialog.c:868
+msgid "_Account Description"
+msgstr "_ລາຍລະອຽດບັນຊີ"
+
+#: src/goabackend/goaproviderdialog.c:947
+msgid "_Remove…"
+msgstr "_ລຶບອອກ…"
+
+#: src/goabackend/goaproviderdialog.c:1043
+msgid "_Sign In"
+msgstr "_ເຂົ້າສູ່ລະບົບ"
+
+#: src/goabackend/goaproviderdialog.c:1105
+msgid "_Try Again"
+msgstr "_ລອງໃໝ່"
+
+#: src/goabackend/goaproviderdialog.c:1109
+msgid "_Ignore"
+msgstr "_ບໍ່ສົນໃຈ"
+
+#: src/goabackend/goaproviderdialog.c:1381
+msgid "Dialog was dismissed"
+msgstr "ກ່ອງໂຕ້ຕອບຖືກປິດ"
+
+#. TODO: more specific
+#: src/goabackend/goasmtpauth.c:164
+#, c-format
+msgid "TLS not available"
+msgstr "TLS ບໍ່ພ້ອມໃຊ້ງານ"
+
+#: src/goabackend/goasmtpauth.c:492
+#, c-format
+msgid "Unknown authentication mechanism"
+msgstr "ກົນໄກການຢັ້ງຢືນຕົວຕົນທີ່ບໍ່ຮູ້ຈັກ"
+
+#: src/goabackend/goautils.c:80
+#, c-format
+msgid "A %s account already exists for %s"
+msgstr "ບັນຊີ %s ສຳລັບ %s ມີຢູ່ແລ້ວ"
+
+#. TODO: more specific
+#: src/goabackend/goautils.c:193
+msgid "Failed to delete credentials from the keyring"
+msgstr "ລຶບຂໍ້ມູນປະຈຳຕົວຈາກພວງກະແຈບໍ່ສຳເລັດ"
+
+#. TODO: more specific
+#: src/goabackend/goautils.c:241
+msgid "Failed to retrieve credentials from the keyring"
+msgstr "ເອົາຂໍ້ມູນປະຈຳຕົວຈາກພວງກະແຈບໍ່ສຳເລັດ"
+
+#. TODO: more specific
+#: src/goabackend/goautils.c:251
+msgid "No credentials found in the keyring"
+msgstr "ບໍ່ພົບຂໍ້ມູນປະຈຳຕົວໃນພວງກະແຈ"
+
+#: src/goabackend/goautils.c:264
+msgid "Error parsing result obtained from the keyring: "
+msgstr "ຂໍ້ຜິດພາດໃນການແຍກສ່ວນຜົນລັບທີ່ໄດ້ຈາກພວງກະແຈ: "
+
+#. Translators: The %s is the type of the provider, e.g. 'google' or 'yahoo'
+#: src/goabackend/goautils.c:305
+#, c-format
+msgid "GOA %s credentials for identity %s"
+msgstr "ຂໍ້ມູນປະຈຳຕົວ GOA %s ສຳລັບຕົວຕົນ %s"
+
+#. TODO: more specific
+#: src/goabackend/goautils.c:322
+msgid "Failed to store credentials in the keyring"
+msgstr "ເກັບຂໍ້ມູນປະຈຳຕົວໃນພວງກະແຈບໍ່ສຳເລັດ"
+
+#: src/goabackend/goautils.c:794
+msgid "Not found"
+msgstr "ຊອກບໍ່ເຫັນ"
+
+#: src/goabackend/goautils.c:808
+#, c-format
+msgid "Code: %u — Unexpected response from server"
+msgstr "ລະຫັດ: %u — ການຕອບສະໜອງທີ່ບໍ່ຄາດຄິດຈາກເຊີບເວີ"
+
+#: src/goabackend/goautils.c:833
+msgid "The signing certificate authority is not known."
+msgstr "ບໍ່ຮູ້ຈັກຜູ້ອອກໃບຮັບຮອງທີ່ລົງລາຍເຊັນ."
+
+#: src/goabackend/goautils.c:837
+msgid ""
+"The certificate does not match the expected identity of the site that it was "
+"retrieved from."
+msgstr "ໃບຮັບຮອງບໍ່ກົງກັບຕົວຕົນທີ່ຄາດໄວ້ຂອງເວັບໄຊທີ່ມັນຖືກເອົາມາ."
+
+#: src/goabackend/goautils.c:842
+msgid "The certificate’s activation time is still in the future."
+msgstr "ເວລາເປີດໃຊ້ງານຂອງໃບຮັບຮອງຍັງບໍ່ທັນມາເຖິງ."
+
+#: src/goabackend/goautils.c:846
+msgid "The certificate has expired."
+msgstr "ໃບຮັບຮອງໝົດອາຍຸແລ້ວ."
+
+#: src/goabackend/goautils.c:850
+msgid "The certificate has been revoked."
+msgstr "ໃບຮັບຮອງຖືກຖອນຄືນແລ້ວ."
+
+#: src/goabackend/goautils.c:854
+msgid "The certificate’s algorithm is considered insecure."
+msgstr "ຂັ້ນຕອນວິທີຂອງໃບຮັບຮອງຖືວ່າບໍ່ປອດໄພ."
+
+#: src/goabackend/goautils.c:860
+msgid "Invalid certificate."
+msgstr "ໃບຮັບຮອງບໍ່ຖືກຕ້ອງ."
+
+#. TODO: more specific
+#: src/goabackend/goautils.c:895
+#, c-format
+msgid "Did not find %s with identity “%s” in credentials"
+msgstr "ຊອກຫາ %s ທີ່ມີຕົວຕົນ “%s” ໃນຂໍ້ມູນປະຈຳຕົວບໍ່ພົບ"
+
+#: src/goabackend/goawebdavprovider.c:399
+msgid "Calendar, Contacts and Files"
+msgstr "ປະຕິທິນ, ລາຍຊື່ຜູ້ຕິດຕໍ່ ແລະ ໄຟລ໌"
+
+#: src/goabackend/goawebdavprovider.c:400
+msgid ""
+"Add a calendar, contacts and files account by entering your WebDAV server "
+"and account details"
+msgstr "ເພີ່ມບັນຊີປະຕິທິນ, ລາຍຊື່ຜູ້ຕິດຕໍ່ ແລະ ໄຟລ໌ ໂດຍການປ້ອນເຊີບເວີ WebDAV ແລະ ລາຍລະອຽດບັນຊີຂອງທ່ານ"
+
+#: src/goabackend/goawebdavprovider.c:414
+msgid "Server Addresses (Optional)"
+msgstr "ທີ່ຢູ່ເຊີບເວີ (ບໍ່ບັງຄັບ)"
+
+#: src/goabackend/goawebdavprovider.c:415
+msgid "Files"
+msgstr "ໄຟລ໌"
+
+#: src/goabackend/goawebdavprovider.c:416
+msgid "Calendar (CalDAV)"
+msgstr "ປະຕິທິນ (CalDAV)"
+
+#: src/goabackend/goawebdavprovider.c:417
+msgid "Contacts (CardDAV)"
+msgstr "ລາຍຊື່ຜູ້ຕິດຕໍ່ (CardDAV)"
+
+#: src/goaidentity/goaidentityservice.c:565
+msgid "Initial secret key is invalid"
+msgstr "ຄີລັບເບື້ອງຕົ້ນບໍ່ຖືກຕ້ອງ"
+
+#. TODO: more specific
+#: src/goaidentity/goaidentityservice.c:787
+#, c-format
+msgid "Couldn't get GoaObject for object path %s"
+msgstr "ບໍ່ສາມາດຮັບ GoaObject ສຳລັບເສັ້ນທາງອັອບເຈັກ %s ໄດ້"
+
+#: src/goaidentity/goaidentityservice.c:1120
+#, c-format
+msgid "The network realm %s needs some information to sign you in."
+msgstr "ເຄືອຂ່າຍ realm %s ຕ້ອງການຂໍ້ມູນບາງຢ່າງເພື່ອໃຫ້ທ່ານເຂົ້າສູ່ລະບົບ."
+
+#: src/goaidentity/goakerberosidentity.c:294
+#: src/goaidentity/goakerberosidentity.c:302
+#: src/goaidentity/goakerberosidentity.c:696
+msgid "Could not find identity in credential cache: "
+msgstr "ບໍ່ພົບຕົວຕົນໃນແຄສຂໍ້ມູນປະຈຳຕົວ: "
+
+#: src/goaidentity/goakerberosidentity.c:708
+msgid "Could not find identity credentials in cache: "
+msgstr "ບໍ່ພົບຂໍ້ມູນປະຈຳຕົວໃນແຄສ: "
+
+#: src/goaidentity/goakerberosidentity.c:752
+msgid "Could not sift through identity credentials in cache: "
+msgstr "ບໍ່ສາມາດກັ່ນຕອງຂໍ້ມູນປະຈຳຕົວໃນແຄສໄດ້: "
+
+#: src/goaidentity/goakerberosidentity.c:764
+msgid "Could not finish up sifting through identity credentials in cache: "
+msgstr "ບໍ່ສາມາດກັ່ນຕອງຂໍ້ມູນປະຈຳຕົວໃນແຄສໃຫ້ສຳເລັດໄດ້: "
+
+#: src/goaidentity/goakerberosidentity.c:1407
+#, c-format
+msgid "No associated identification found"
+msgstr "ບໍ່ພົບຂໍ້ມູນການລະບຸຕົວຕົນທີ່ກ່ຽວຂ້ອງ"
+
+#: src/goaidentity/goakerberosidentity.c:1536
+msgid "Could not create credential cache: "
+msgstr "ບໍ່ສາມາດສ້າງແຄສຂໍ້ມູນປະຈຳຕົວໄດ້: "
+
+#: src/goaidentity/goakerberosidentity.c:1576
+msgid "Could not initialize credentials cache: "
+msgstr "ບໍ່ສາມາດເລີ່ມຕົ້ນແຄສຂໍ້ມູນປະຈຳຕົວໄດ້: "
+
+#: src/goaidentity/goakerberosidentity.c:1589
+msgid "Could not store new credentials in credentials cache: "
+msgstr "ບໍ່ສາມາດເກັບຂໍ້ມູນປະຈຳຕົວໃໝ່ໃນແຄສຂໍ້ມູນປະຈຳຕົວໄດ້: "
+
+#: src/goaidentity/goakerberosidentity.c:1825
+#, c-format
+msgid "Not signed in"
+msgstr "ບໍ່ໄດ້ເຂົ້າສູ່ລະບົບ"
+
+#: src/goaidentity/goakerberosidentity.c:1838
+msgid "Could not get the default principal: "
+msgstr "ບໍ່ສາມາດຮັບ principal ເລີ່ມຕົ້ນໄດ້: "
+
+#: src/goaidentity/goakerberosidentity.c:1851
+#, c-format
+msgid "Could not get renewed credentials from the KDC for identity %s: "
+msgstr "ບໍ່ສາມາດຮັບຂໍ້ມູນປະຈຳຕົວທີ່ຕໍ່ອາຍຸໃໝ່ຈາກ KDC ສຳລັບຕົວຕົນ %s ໄດ້: "
+
+#: src/goaidentity/goakerberosidentity.c:1899
+msgid "Could not erase identity: "
+msgstr "ບໍ່ສາມາດລຶບຕົວຕົນໄດ້: "
+
+#: src/goaidentity/goakerberosidentitymanager.c:955
+msgid "Could not find identity"
+msgstr "ບໍ່ພົບຕົວຕົນ"
+
+#: src/goaidentity/goakerberosidentitymanager.c:1038
+msgid "Could not create credential cache for identity"
+msgstr "ບໍ່ສາມາດສ້າງແຄສຂໍ້ມູນປະຈຳຕົວສຳລັບຕົວຕົນໄດ້"
+
+#: src/goaidentity/goalinuxnotificationstream.c:58
+#, c-format
+msgid "Error closing file descriptor: %s"
+msgstr "ຂໍ້ຜິດພາດໃນການປິດຕົວອະທິບາຍໄຟລ໌: %s"
